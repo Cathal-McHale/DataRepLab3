@@ -4,7 +4,7 @@ function BookItem(props) {
 
     return (
         <div>
-            <Card style={{ width: '15rem',height: '35rem' }}>
+            <Card style={{ width: '23rem',height: '38rem' }}>
                 <Card.Img variant="top" src={props.MyBook.thumbnailUrl} />
                 <Card.Body>
                     <Card.Title>{props.MyBook.title}</Card.Title>
